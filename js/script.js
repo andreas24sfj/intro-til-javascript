@@ -13,11 +13,11 @@ console.log(gallery)
 // console.log(mainContent)
 
 
-const imageUrls = ["public\images\katt1.jpg",
-    "public\images\katt2.jpg", 
-    "public\images\katt3.jpg", 
-    "public\images\katt4.jpg", 
-    "public\images\katt5.jpg"]
+const imageUrls = ["/public/images/katt1.jpg",
+    "/public/images/katt2.jpg", 
+    "/public/images/katt3.jpg", 
+    "/public/images/katt4.jpg", 
+    "/public/images/katt5.jpg"]
     
 
 /*for å finne en tilfeldig index i imageUrls arrayet lager vi randomNum variabelen som gjør følgende:
