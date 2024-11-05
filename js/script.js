@@ -4,6 +4,7 @@
 const mainContent = document.getElementById("content")
 const mainImage = document.getElementById("img")
 const gallery = document.getElementById("gallery")
+const button = document.getElementById("button")
 
 
 
@@ -49,10 +50,14 @@ Dette skjer hver gang loopen kjøres:
 1. Loopen ser på bruker newImage variabelen til å lage et nytt element
 2. dette nye elementet får tilført en verdi i attributten src fra imageUrls arrayet
 3. det nye elementet blir plassert i gallery(div med id="gallery") gjennom appendChild*/
+
+
+function showGallery() {
     imageUrls.forEach(url => {
         const newImage = document.createElement("img")
         newImage.src = url
 
-
         gallery.appendChild(newImage)
+        button.remove()
     })
+}
