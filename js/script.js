@@ -61,3 +61,13 @@ function showGallery() {
         button.remove()
     })
 }
+
+function themeSwitcher() {
+    // document.body.classList.toggle("light")
+    // document.body.classList.toggle("dark")
+    if (document.body.classList.value === "dark") {
+        return document.body.classList.value = "light"
+    } else if(document.body.classList.value === "light") {
+        return document.body.classList.value ="dark"
+    }
+}
