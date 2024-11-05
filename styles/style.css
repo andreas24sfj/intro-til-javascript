@@ -19,7 +19,7 @@ body.light {
 
 body.dark {
   color: white;
-  background-color: black;
+  background-color: darkslategrey;
 }
 
 button {
@@ -35,7 +35,7 @@ button:hover {
 
 
 body.dark button {
-background-color: black;
+background-color: darkslategray;
 color: antiquewhite;
 border-radius: 8px;
 }
