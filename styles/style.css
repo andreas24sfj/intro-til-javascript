@@ -30,43 +30,42 @@ button {
 }
 
 button:hover {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
-
 body.dark button {
-background-color: darkslategray;
-color: antiquewhite;
-border-radius: 8px;
+  background-color: darkslategrey;
+  color: antiquewhite;
+  border-radius: 8px;
 }
 
 body.light button {
-background-color: antiquewhite;
-color: black;
-border-radius: 8px;
+  background-color: antiquewhite;
+  color: darkslategrey;
+  border-radius: 8px;
 }
 
 #content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 #img {
-    width: auto;
-    height: 400px;
+  width: auto;
+  height: 400px;
 }
 
 #gallery {
-    padding: 4px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 
 #gallery img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
